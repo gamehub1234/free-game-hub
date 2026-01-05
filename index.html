@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Games Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎮 Free Games Hub</h1>
+    <p>Bepul o‘yinlarni online o‘yna</p>
+</header>
+
+<!-- O‘YINLAR RO‘YXATI -->
+<main class="games">
+    <div class="game-card" onclick="playGame('https://playsnake.org/')">
+        <h3>🐍 Snake</h3>
+        <p>Klassik ilon o‘yini</p>
+    </div>
+
+    <div class="game-card" onclick="playGame('https://chromedino.com/')">
+        <h3>🦖 Dino</h3>
+        <p>Internet yo‘q paytdagi o‘yin</p>
+    </div>
+
+    <div class="game-card" onclick="playGame('https://tetris.com/play-tetris')">
+        <h3>🧱 Tetris</h3>
+        <p>Mashhur puzzle o‘yin</p>
+    </div>
+</main>
+
+<!-- O‘YIN OYNASI -->
+<section id="player">
+    <button onclick="closeGame()">⬅ Orqaga</button>
+    <iframe id="gameFrame"></iframe>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
