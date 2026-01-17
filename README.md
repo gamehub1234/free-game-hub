@@ -1,2 +1,2 @@
-# free-game-hub
+# game hub
 free game web sayit
